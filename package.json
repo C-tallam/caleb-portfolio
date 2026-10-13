@@ -1,0 +1,14 @@
+{
+  "name": "caleb-portfolio-monorepo",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "seed": "npm run seed --prefix server",
+    "create-admin": "npm run create-admin --prefix server"
+  }
+}
