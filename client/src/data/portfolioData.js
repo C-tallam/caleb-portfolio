@@ -18,8 +18,8 @@ export const profile = {
   location: 'Kenya',
   resumeUrl: '', // e.g. '/cv.pdf' (place the file in a /public folder). Empty = hidden.
   // Contact details: leave '' until you are ready to add them.
-  email: '',
-  phone: '',
+  email: 'tallamcaleb00@gmail.com',
+  phone: '074571817',
   github: '', // full URL, e.g. 'https://github.com/username'
   linkedin: '', // full URL
 };
