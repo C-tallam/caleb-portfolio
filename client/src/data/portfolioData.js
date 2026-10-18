@@ -135,7 +135,21 @@ export const learning = [
 //   technologies: ['React', 'CSS'], github: 'https://github.com/...', demo: 'https://...',
 //   image: '', imageAlt: '', date: 'March 2027', category: 'Web Development',
 // }
-export const projects = [];
+export const projects = [
+  {
+    id: 'it-helpdesk',
+    name: 'IT Helpdesk & Ticketing System',
+    description:
+      'A full-stack helpdesk where users sign up and raise support tickets, and agents and admins triage, assign and resolve them. It has comments with internal staff notes, an activity history for every ticket, a staff dashboard, and role-based access with JWT authentication.',
+    technologies: ['React', 'Node.js', 'Express', 'MongoDB Atlas', 'Mongoose', 'JWT'],
+    github: 'https://github.com/C-tallam/helpdesk-system',
+    demo: 'https://helpdesk-system-phi.vercel.app',
+    image: '',
+    imageAlt: '',
+    date: 'October 2026',
+    category: 'Full-Stack Web Development',
+  },
+];
 
 export const footer = {
   tagline: 'Computer Science student building practical skills in networking and the web.',
