@@ -20,7 +20,7 @@ export const profile = {
   // Contact details: leave '' until you are ready to add them.
   email: 'tallamcaleb00@gmail.com',
   phone: '0745710817',
-  github: '', // full URL, e.g. 'https://github.com/username'
+  github: 'https://github.com/C-tallam', // full URL, e.g. 'https://github.com/username'
   linkedin: '', // full URL
 };
 
